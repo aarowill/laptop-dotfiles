@@ -1,0 +1,14 @@
+# Ignore un-needed config files
+Trolltech.conf
+user-dirs.dirs
+sublime-text-3/
+mimeapps.list
+menus/
+nemo/
+gtk-2.0/
+google-chrome/
+gconf/
+dconf/
+compton.sample.conf
+autostart/
+

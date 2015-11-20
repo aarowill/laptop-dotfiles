@@ -1,0 +1,2 @@
+! ~/.Xresources
+#include "/home/aaron/.config/urxvt"
