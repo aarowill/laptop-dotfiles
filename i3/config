@@ -257,6 +257,9 @@ assign [class="^Subl3$"] $workspace3
 # Lock screen shortcut
 bindsym $mod+Shift+x exec ~/.config/i3/scripts/pixellock.sh
 
+# Google chrome shortcut
+bindsym $mod+c exec google-chrome-stable
+
 # Disable focus follows mouse
 focus_follows_mouse no
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # check if the file exists
-if [ ! -e /sys/class/backlight/acpi_video0/actual_brightness ]
+if [ ! -e /sys/class/backlight/intel_backlight/brightness ]
 	then
 		exit
 fi
