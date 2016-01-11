@@ -1,5 +1,8 @@
 ! Transparency
-URxvt*depth:		 32
+URxvt*depth:	     32
+
+! Blinking cursor
+URxvt*cursorBlink:   1
 
 ! Remove scrollbar
 URxvt*scrollBar:     false
