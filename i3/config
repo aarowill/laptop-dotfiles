@@ -137,7 +137,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/exitmenu.py
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -262,7 +262,7 @@ assign [class="^Subl3$"] $workspace3
 bindsym $mod+Shift+x exec ~/.config/i3/scripts/pixellock.sh
 
 # Google chrome shortcut
-bindsym $mod2+c exec google-chrome-stable
+bindsym $mod2+c exec --no-startup-id google-chrome-stable
 
 # Sublime text shortcut
 bindsym $mod2+s exec subl3
