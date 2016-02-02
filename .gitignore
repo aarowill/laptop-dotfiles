@@ -11,4 +11,7 @@ gconf/
 dconf/
 compton.sample.conf
 autostart/
+.mono/
+libreoffice/
+KeePass/
 
