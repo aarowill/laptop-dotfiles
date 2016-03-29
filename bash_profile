@@ -4,5 +4,5 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-[[ "$(cat /sys/class/tty/tty0/active)" = "tty1" ]] && startx
+[[ "$(cat /sys/class/tty/tty0/active)" = "tty1" ]] && [[ $TERM = "linux" ]] && startx
 
