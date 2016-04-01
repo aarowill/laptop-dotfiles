@@ -1,2 +1,3 @@
 ! ~/.Xresources
 #include "/home/aaron/.config/urxvt"
+#include "/home/aaron/.config/xres_solarized"
