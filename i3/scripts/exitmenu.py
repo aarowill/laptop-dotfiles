@@ -7,7 +7,7 @@ import subprocess
 
 lockProg = "/home/aaron/.config/i3/scripts/pixellock.sh"
 logoutCmd = ["/usr/bin/i3-msg", "exit"]
-shutdownCmd = "shutdown -h now"
+shutdownCmd = "halt"
 rebootCmd = "reboot"
 
 class MyWindow(Gtk.Window):
